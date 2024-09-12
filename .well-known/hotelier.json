@@ -1,6 +1,6 @@
 {
     "servers": {
-        "dev": "https://localhost:7139",
+        "dev": "http://hotelier-api:5001",
         "prod": "https://hotelierapi.pyxisint.com"
     }
 }
