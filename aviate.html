@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pyxis Aviate - Flight Planning Software</title>
+<style>
+  /* Reset */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; padding: 0;
+    background: #f7f9fc;
+    color: #222;
+  }
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  header {
+    background-color: #004080;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 0.3rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  header p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+
+  section {
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    color: #004080;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li {
+    margin-bottom: 0.6rem;
+    padding-left: 1.6rem;
+    position: relative;
+  }
+  ul li::before {
+    content: "✔";
+    color: #007acc;
+    position: absolute;
+    left: 0;
+    font-weight: 700;
+  }
+
+  .button {
+    display: inline-block;
+    background-color: #007acc;
+    color: white;
+    padding: 0.75rem 1.8rem;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  .button:hover {
+    background-color: #005fa3;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    margin: 3rem 0 1rem;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Flight Planning Reimagined for Modern Operators</h1>
+    <p><strong>Aviate</strong> is a lightweight, modular flight operations platform purpose-built for ACMI, regional, and startup airlines who need power without the complexity.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Why Aviate?</h2>
+      <ul>
+        <li>Fast, intuitive UI – no training manual required</li>
+        <li>Built for real-world ops – irregular schedules, ACMI leases, short turnarounds</li>
+        <li>Modular – use only what you need: planning, dispatch, scheduling, or crew tools</li>
+        <li>Interoperable – export to PDF, CSV, or integrate via REST API</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Core Modules</h2>
+      <ul>
+        <li><strong>Flight Planning Assistant:</strong> Route planning, ETP/ETOPS, fuel breakdowns</li>
+        <li><strong>Fleet Scheduling Timeline:</strong> Gantt-style planning with aircraft and crew assignments</li>
+        <li><strong>Aircraft Profiles:</strong> Reusable performance templates for faster dispatch</li>
+        <li><strong>Dispatch Brief Generator:</strong> One-click PDF for pilots and crew</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Built For</h2>
+      <ul>
+        <li>Charter & ACMI operators</li>
+        <li>Startup low-cost carriers</li>
+        <li>Regional airlines</li>
+        <li>Dispatch training schools</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Simple Pricing</h2>
+      <p>Start small and scale: per-aircraft subscription with optional modules.</p>
+    </section>
+
+    <section style="text-align:center;">
+      <a href="#" class="button">Join the Waitlist</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact us at <a href="mailto:contact@pyxisint.com">contact@pyxisint.com</a> | <a href="http://www.pyxisint.com/aviate" target="_blank" rel="noopener">www.pyxisint.com/aviate</a></p>
+  </footer>
+</body>
+</html>
